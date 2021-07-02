@@ -13,4 +13,4 @@ COPY ./conf/*.conf /etc/c-icap/
 EXPOSE 1344
 
 #USER c-icap
-CMD ["sh", "-c", "/usr/bin/freshclam -d -c 24 && /usr/bin/c-icap -f /etc/c-icap/c-icap.conf -D -N"]
+CMD ["sh", "-c", "/usr/bin/freshclam -d -c 24 -l /proc/self/fd/1 && /usr/bin/c-icap -f /etc/c-icap/c-icap.conf -D -N"]
