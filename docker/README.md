@@ -11,6 +11,12 @@ podman tag c-icap-container docker.io/stan314o/c-icap-container:1.0
 podman push docker.io/stan314o/c-icap-container:1.0
 ```
 
+If Push result to error when retrieving the image from kubernetes, use buildah instead
+
+```
+buildah push --disable-compression docker.io/stan314o/c-icap-container:1.0
+```
+
 ## Docker 
 Note : same command arguments as podman with docker comand name
 ```
