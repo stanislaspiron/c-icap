@@ -3,7 +3,7 @@
 This repository provides a kubernetes / docker / podman solution to run an ICAP service with ClamAV. 
 This is designed for testing purpose only.
 
-## What you’ll need (not tested with other microk8s specifications)
+## What you’ll need
 - kubernetes cluster. This was tested in [Microk8s](https://github.com/stanislaspiron/microk8s_awx/blob/main/microk8s/microk8s_install.md)
 - [metallb](https://github.com/stanislaspiron/microk8s_awx/blob/main/microk8s/install_metallb.md) load balancer
 
