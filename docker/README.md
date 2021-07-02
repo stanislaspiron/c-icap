@@ -11,7 +11,8 @@ podman tag c-icap-container docker.io/stan314o/c-icap-container:1.0
 podman push docker.io/stan314o/c-icap-container:1.0
 ```
 
-## Docker (same command arguments as podman with docker comand name)
+## Docker 
+Note : same command arguments as podman with docker comand name
 ```
 docker build -t c-icap-container .
 docker tag c-icap-container docker.io/stan314o/c-icap-container:1.0
