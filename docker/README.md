@@ -45,6 +45,8 @@ Following Logs are configured to write to stdout:
 - C-ICAP ServerLog (istag is recomputed, virus detected, ...)
 - ClamAV Updates status
 
+To see Container Logs, execute :
+
 ## Podman
 ```
 podman logs -f <container name>
