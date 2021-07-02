@@ -1,0 +1,32 @@
+RESPMOD icap://192.168.1.4:1344/avscan ICAP/1.0
+Date: Thu, 01 Jul 2021 09:04:55 GMT
+Host: 192.168.1.4:1344
+Encapsulated: req-hdr=0, res-hdr=387, res-body=732
+Preview: 1024
+X-Client-IP: 192.168.1.23
+
+GET /eicar.com HTTP/1.1
+Host: secure.eicar.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://www.eicar.org/
+Upgrade-Insecure-Requests: 1
+
+HTTP/1.1 200 OK
+Date: Thu, 01 Jul 2021 09:04:54 GMT
+Server: Apache
+Last-Modified: Wed, 01 Jul 2020 19:34:06 GMT
+ETag: "44-5a9666004b461"
+Accept-Ranges: bytes
+Content-Length: 68
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Keep-Alive: timeout=5, max=50
+Connection: Keep-Alive
+Content-Type: application/x-msdownload
+
+44
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+0
