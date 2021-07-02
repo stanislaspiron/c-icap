@@ -12,7 +12,7 @@ You can build your own container image or use the one provided on Docker Hub.
 
 [Build Docker image](docker/README.md)
 
-# AWX custom Execution environment
+# Deploy ICAP Service in Kubernetes
 
 1. [Deploy ICAP service in kubernetes](k8s/README.md)
 # Addtionnal informations
