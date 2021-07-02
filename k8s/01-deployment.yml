@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: c-icap
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: c-icap
+  template:
+    metadata:
+      name: c-icap
+      labels:
+        name: c-icap
+    spec:
+      containers:
+        - name: c-icap
+          image: 'docker.io/stan314o/c-icap-container:1.0'
+          ports:
+            - containerPort: 1344
+              protocol: TCP

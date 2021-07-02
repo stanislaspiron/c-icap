@@ -1,0 +1,17 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: lb-c-icap
+  annotations:
+    metallb.universe.tf/allow-shared-ip: 'true'
+spec:
+  ports:
+    - name: 'radius-acct'
+      protocol: TCP
+      port: 1344
+      targetPort: 1344
+  selector:
+    name: c-icap
+  type: LoadBalancer
+  loadBalancerIP: 192.168.1.200
