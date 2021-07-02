@@ -24,8 +24,11 @@ This container accept RESPMOD and REQMOD for following services
 Virus signature database is updated every hour.
 
 # Logs
+Following Logs are configured to write to stdout:
+- C-ICAP ServerLog (istag is recomputed, virus detected, ...)
+- ClamAV Updates status
 
-C-ICAP ServerLog (istag is recomputed, virus detected, ...) is configured to stdout. you can see it with:
+To see Pod Logs, execute :
 
 ```
 kubectl logs -f <pod name>
