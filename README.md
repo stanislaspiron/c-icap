@@ -14,7 +14,8 @@ You can build your own container image or use the one provided on Docker Hub.
 
 # Deploy ICAP Service in Kubernetes
 
-1. [Deploy ICAP service in kubernetes](k8s/README.md)
+[Deploy ICAP service in kubernetes](k8s/README.md)
+
 # Addtionnal informations
 This container accept RESPMOD and REQMOD for following services
 - avscan
